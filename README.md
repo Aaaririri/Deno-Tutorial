@@ -11,7 +11,9 @@
 Permissões mais comuns:
 
 *--allow-read*: Leitura;
+
 *--allow-write*: Escrita; 
+
 *--allow-net*: Acesso a net.
 
 Para rodar via terminal código que lê e escreve em um arquivo e faz fetch de uma API **por exemplo**:
