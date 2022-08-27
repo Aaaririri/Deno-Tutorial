@@ -1,4 +1,4 @@
-### Deno-Tutorial
+### Deno Tutorial
 #### VSCode
 **Link** com configurações para o VSCode:
 

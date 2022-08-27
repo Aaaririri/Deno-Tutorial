@@ -20,3 +20,12 @@ const res = await fetch('https://swapi.dev/api/films/');
 const resJson =  await res.json();
 console.log(resJson);
 
+// Usando modulo uuid
+import { v4 } from 'https://deno.land/std/uuid/mod.ts'
+
+const uid = v4.generate();
+console.log(uid);
+
+// Usando server
+import { serve } from "https://deno.land/std@0.153.0/http/server.ts";
+serve((_req) => new Response("Hello, world"), { port: 3000 });
